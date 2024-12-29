@@ -12,8 +12,8 @@
 </section>
 
 <aside>
-	<File />
-	<File />
+	<File name={"About"}/>
+	<File name={"Contact"}/>
 </aside>
 
 <style>
