@@ -50,7 +50,7 @@
   </div>
   <span class="file-name {selected ? 'selected' : ''}">{name}</span>
 
-  <Popup isOpen={isPopupOpen} closePopup={closePopup} />
+  <Popup isOpen={isPopupOpen} closePopup={closePopup} name={name}/>
 </div>
 
 <style>
