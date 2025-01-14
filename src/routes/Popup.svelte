@@ -18,9 +18,9 @@
         <span>
           <u>S</u>ave
         </span>
-        <div class="content-info">
-          
-        </div>
+        <section class="content-info">
+          <img src="/background.png" class="about-image" alt="">
+        </section>
       </div>
     </div>
 </div>
@@ -66,12 +66,21 @@
     display: flex;
     flex-direction: column;
     gap: 4px;
+    max-width: 650px;
+    max-height: 500px;
   }
 
   .content-info {
+    position: relative;
     border: 0.5px solid #252525;
-    background-color: aquamarine;
-    min-height: 200px;
+    overflow-y: auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: #000;
+    font-size: 16px;
+  }
+
+  .about-image {
+    width: 100%;
   }
 
   .close-button {
